@@ -19,7 +19,7 @@
     "express": "^4.18.2",
     "mongoose": "^7.5.2",
     "multer": "^1.4.5-lts.1",
-    "nodemon": "^3.0.1",
+    "nodemon": "^3.1.4",
     "params": "^0.1.1",
     "path": "^0.12.7",
     "sanitize-html": "^2.12.1"
