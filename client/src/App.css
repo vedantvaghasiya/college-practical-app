@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* styles.css (or any other CSS file you prefer) */
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* App.css or Tailwind CSS classes */
+
+/* Add a class to make the container flex and occupy full height */
+.container-full-height {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+}
+
+/* Styles for the footer */
+footer {
+  margin-top: auto; /* Push the footer to the bottom */
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+
+/* Add a class to make text smaller if needed */
+.small {
+  font-size: 80%; /* Adjust the font size as needed */
+}
+
+/* Default style for mobile screens */
+.earth-container {
+  width: 400px;
+  height: 400px;
+}
+
+/* Media query for screens wider than 600px (adjust breakpoint as needed) */
+@media (min-width: 601px) {
+  .earth-container {
+    width: 600px;
+    height: 600px;
+  }
+}
+
+.icon:hover {
+  transform: scale(1.4); /* Make the icon 10% larger on hover */
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+.icon {
+  margin-right: 20px; /* Adjust the margin to control the gap between icons */
+}
+
+.hover-grow {
+  transition: transform 0.2s; /* Add a smooth transition effect */
+}
+
+.hover-grow:hover {
+  transform: scale(
+    1.1
+  ); /* Increase the size on hover (you can adjust the scale factor) */
+}
+
+.whiteboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.canvas {
+  border: 1px solid #000;
+}
+
+#root .ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc;
+}
+
+/* Snow Theme */
+#root .ql-snow.ql-toolbar {
+  display: block;
+  background: #eaecec;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+
+#root .ql-editor {
+  min-height: 18em;
+}
