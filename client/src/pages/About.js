@@ -50,7 +50,7 @@ const About = () => {
 
                 On the back-end, I'm well-versed in Node.js and MongoDB, providing comprehensive full-stack solutions. I thrive in the ever-evolving world of web development, continually learning and growing.
 
-                Beyond coding, I'm committed to delivering educational resources and practical solutions through projects like <span className="hover:scale-110">https://college-practicals.vercel.app/</span>. You're welcome to connect with me on LinkedIn or explore my GitHub profile.
+                Beyond coding, I'm committed to delivering educational resources and practical solutions through projects like <span className="hover:scale-110">https://college-practicals-app.vercel.app/</span>. You're welcome to connect with me on LinkedIn or explore my GitHub profile.
 
                 Thank you for visiting my profile, and let's connect!
               </p>
